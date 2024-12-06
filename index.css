@@ -1,0 +1,86 @@
+body{
+    background-color: rgba(2, 3, 3, 0.951);
+    color: whitesmoke;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+nav ul li{
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 21px;
+    padding-left: 10px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul a{ 
+   text-decoration: none; 
+   text-decoration-line: none;
+}
+nav ul li:hover{
+    background-color: rgb(194, 163, 124);
+    color: black;
+    border-radius: 5px;
+    border-color: black;
+}
+nav ul li:nth-child(1n){
+    padding-right: 15px;
+}
+nav ul a:first-child{
+    font-size: 19px;
+    border: solid whitesmoke;
+    border-radius: 5px;
+    justify-self: flex-start;
+}
+nav ul{
+    margin-top: 30px;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    width: 80%;
+    min-width: auto;
+    display: flex;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: larger;
+}
+img{
+    max-width: 350px;
+    min-width: auto;
+    border-radius: 10px;
+}
+.intro{
+    margin-left: 60px;
+}
+.type_write{
+    overflow: hidden;
+    border-right: .15em solid purple;
+    width: 0;
+    white-space: nowrap;
+    animation: typing 2s steps(30, end) forwards,blink .8s infinite;
+}
+.type_container{
+    display: inline-block;
+}
+@keyframes typing{
+    from{ width: 0}
+    to{ width: 100%}
+}
+@keyframes blink{
+    from{ border-color: transparent}
+    to{ border-color: purple;}
+}
+.speciality ul li{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
